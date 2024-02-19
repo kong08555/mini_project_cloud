@@ -5,6 +5,6 @@ services:
     ports:
       - "8000:80"
     volumes:
-      - mini-project:/usr/share/nginx/html
+      - mini_project_volume:/usr/share/nginx/html
 volumes:
-  mini-project:
+  mini_project_volume:
