@@ -1,7 +1,10 @@
 version: '3'
-
 services:
   app:
-    image: 'nginx'
+    image: nginx
     ports:
-      - '8080:80'
+      - "8000:80"
+    volumes:
+      - mini-project:/usr/share/nginx/html
+volumes:
+  mini-project:
