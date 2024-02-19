@@ -1,7 +1,6 @@
 # Use an official Nginx runtime as a parent image
 FROM nginx:latest
 
-# Copy the local nginx.conf file to the container
 COPY . .
 
 # Expose port 80 to the outside world
